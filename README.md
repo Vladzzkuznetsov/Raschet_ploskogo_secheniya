@@ -4,7 +4,9 @@
 ### The basic idea of the calculation
 
 When specifying the characteristics of the concrete section can be used normative data from SP63.13330 (three-line diagram of deformation of concrete)
-
+When specifying the characteristics of steel sections, the idea of linear dependence of strains and stresses in the material is used.
+Taking the maximum deformations in the compressed zone of the concrete as a result of the work, the deformations in the tensile zone return and the calculation error is determined.
+As a result of the program's work the graph of stress distribution over the section height is plotted.
 <body>
   <p><img src="https://user-images.githubusercontent.com/111303182/198578082-4643ec4f-ed54-4724-b33c-a27c46337cb5.png"></p>
 </body>
@@ -22,8 +24,3 @@ def usiliya_b(row):
   if 3 <= row['lin_int']: return 0
 ```
 </html>
-описание (с использованием слов и изображений);
-демо (изображения, ссылки на видео, интерактивные демо-ссылки);
-технологии в проекте;
-что-то характерное для проекта (проблемы, с которыми пришлось столкнуться, уникальные составляющие проекта);
-техническое описание проекта (установка, настройка, как помочь проекту).
