@@ -1,5 +1,6 @@
 <html>
 <h1 align="center">Raschet_ploskogo_secheniya</h1>
+  
 ### The basic idea of the calculation
 
 When specifying the characteristics of the concrete section can be used normative data from SP63.13330 (three-line diagram of deformation of concrete)
