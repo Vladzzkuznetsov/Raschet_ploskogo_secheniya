@@ -1,15 +1,16 @@
 <html>
 <h1 align="center">Raschet_ploskogo_secheniya</h1>
-<p>В файле организованы несколько функций с возможностью редактирования входных данных.
-При занании характеристик бетонного сечения могут использоваться нормативные данные из СП63.13330 (трехлинейная диограмма деформирования бетона)
-</p>
+### The basic idea of the calculation
+
+When specifying the characteristics of the concrete section can be used normative data from SP63.13330 (three-line diagram of deformation of concrete)
+
 <body>
   <p><img src="https://user-images.githubusercontent.com/111303182/198578082-4643ec4f-ed54-4724-b33c-a27c46337cb5.png"></p>
 </body>
   
-### Global Usage
+### Functions used
 
-Global Registeration via Vue.use() method.
+Functions are used to set the work of the concrete part of the section.
 
 ```python
 def usiliya_b(row):
