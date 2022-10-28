@@ -11,7 +11,7 @@
 
 Global Registeration via Vue.use() method.
 
-```
+```python
 def usiliya_b(row):
   if row['lin_int'] < -5: return row['Area_b']*-5*50
   if -5 <= row['lin_int'] < -2: return row['Area_b']*row['lin_int']*50
