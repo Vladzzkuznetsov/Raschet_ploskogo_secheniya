@@ -11,23 +11,13 @@
 
 Global Registeration via Vue.use() method.
 
-```js
-// main.js
-import Vue from "vue";
-import App from "./App.vue";
-import router from "./router";
-// import the plugin
-import Calendar from "vue2-baremetrics-calendar";
-
-Vue.config.productionTip = false;
-
-// use the plugin
-Vue.use(Calendar);
-
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount("#app");
+```
+def usiliya_b(row):
+  if row['lin_int'] < -5: return row['Area_b']*-5*50
+  if -5 <= row['lin_int'] < -2: return row['Area_b']*row['lin_int']*50
+  if -2 <= row['lin_int'] < 0: return row['Area_b']*row['lin_int']*200
+  if 0 <= row['lin_int'] < 3: return row['Area_b']*row['lin_int']*200
+  if 3 <= row['lin_int']: return 0
 ```
 </html>
 описание (с использованием слов и изображений);
